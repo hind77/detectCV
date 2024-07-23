@@ -21,8 +21,8 @@ def play_sound():
 def send_pushover_notification(title, message, image_path=None):
     url = "https://api.pushover.net/1/messages.json"
     data = {
-        "token": "a3r2u1xrsp6r9vohusmoy4tawmsayb",
-        "user": "uj3btaayqtnzv5do68ksgszyikju29",
+        "token": "--------------------",
+        "user": "---------------------",
         "title": title,
         "message": message
     }
